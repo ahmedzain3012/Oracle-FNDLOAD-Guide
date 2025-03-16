@@ -159,10 +159,10 @@ These entities refer to core application-level configurations used for validatio
     * <a href="#">Profile Option Values</a>
   * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/messages">Messages Dictionary</a>
   * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/attachments">Attachments Setup</a>
-  * Flexfields Setup
-    * <a href="#">Key Flexfield Structures</a>
-    * <a href="#">Descriptive Flexfields</a>
-    * <a href="#">Value Sets</a>
+  * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/flexfields">Flexfields Setup</a> 
+    * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/flexfields/key-flexfields">Key Flexfield Structures</a>
+    * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/flexfields/descriptive-flexfields">Descriptive Flexfields</a>
+    * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/flexfields/value-sets">Value Sets</a>
    
 ### Security & Access Control Entities
 These entities are responsible for defining user roles, controlling menu access, and managing function-level security in the Oracle E-Business Suite (EBS).
