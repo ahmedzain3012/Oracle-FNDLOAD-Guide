@@ -18,7 +18,7 @@ FNDLOAD apps/<$apps_password> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpreqs.lc
 ### Upload
 
 ```
-FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqs.lct reqs_XXDL_REQUEST_SET_us.ldt
+FNDLOAD apps/<$apps_password> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqs.lct reqs_XXDL_REQUEST_SET_us.ldt
 ```
 
 <br>
