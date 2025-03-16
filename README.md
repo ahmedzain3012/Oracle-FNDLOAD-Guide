@@ -200,7 +200,7 @@ These entities are associated with reporting and template management in Oracle B
 ### SOA, Integrations & Web ADI Entities
 These entities facilitate integrations with external systems and allow data imports from desktop applications.
   * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/isg">Integrated SOA Gateway</a>
-  * <a href="#">Web ADI (Application Desktop Integrator)</a>
+  * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/web-adi">Web ADI (Application Desktop Integrator)</a>
  
 ### Alerts Entity
 These entities are utilized for alerts.
