@@ -194,7 +194,7 @@ These entities are used for business approvals and workflow.
 ### Reporting & BI Publisher (XDO) Entities
 These entities are associated with reporting and template management in Oracle BI Publisher.
   * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/xdo/data-definitions">Data Definitions</a>
-  * <a href="#">XML Templates</a>
+  * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/xdo/xml-templates">XML Templates</a>
   * <a href="#">RTF Templates</a>
 
 ### SOA, Integrations & Web ADI Entities
