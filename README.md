@@ -149,7 +149,7 @@ These entities are responsible for managing the execution of concurrent requests
  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Loader/tree/main/src/content/fndload-entities/concurrents/request-set">Request Sets</a> 
  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Loader/tree/main/src/content/fndload-entities/concurrents/request-set-links">Request Set Links</a>
  
-### Application Object Library (AOL) Entities
+### <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol">Application Object Library (AOL) Entities</a>
 These entities refer to core application-level configurations used for validation, system settings, and flexfields.
   * Lookups
     * <a href="#">Lookup Types</a>
