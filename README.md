@@ -38,6 +38,8 @@ The Loader Control File (.lct) is a key component of Oracle’s FNDLOAD utility.
 <br>
 
 ### Data File (.ldt)
+The Loader Data File (.ldt) is a **structured text file** created by FNDLOAD when **extracting configuration data** from an Oracle EBS instance. The FNDLOAD utility can then transfer and upload this file to another environment.
+
 - The **.ldt** file (Loader Data File) contains extracted configuration data structured in a specific format.
 - This file is generated when configurations are downloaded from an Oracle EBS instance.
 - It can be transferred and uploaded to another instance using the FNDLOAD utility.
