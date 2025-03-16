@@ -208,7 +208,7 @@ These entities are utilized for alerts.
 
 ### Forms Personalization Entities
 These entities are focused on enhancing the user interface of Oracle Forms to improve the overall user experience.
-  * <a href="#">Forms Personalizations</a>
+  * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/forms-personalizations">Forms Personalizations</a>
 
 <br>
 
