@@ -2,9 +2,11 @@
 
 <br>
 
-| Entity      | Sub-entities, if any                           | Download Parameters   |
-| :----      | :--------                         | :----   |
-| FND_ATTACHMENT_ FUNCTIONS         | FND_ATTACHMENT_BLOCKS                   | APPLICATION_ SHORT_NAME      |
+| Entity                   | Sub-entities, if any          |   #   | Download Parameters   |
+| :----                    | :--------                     | :--:  | :----   |
+| FND_ATTACHMENT_FUNCTIONS | FND_ATTACHMENT_BLOCKS         | 1  | APPLICATION_ SHORT_NAME      |
+|                          | FND_ATTACHMENT_BLOCK_ENTITIES | 2  | FUNCTION_NAME      |
+|                          | FND_DOC_CATEGORY_USAGES       | 3  | FUNCTION_TYPE      |
 
 <br>
 
