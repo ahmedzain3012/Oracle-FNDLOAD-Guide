@@ -158,7 +158,7 @@ These entities refer to core application-level configurations used for validatio
     * <a href="#">Profile Definitions</a>
     * <a href="#">Profile Option Values</a>
   * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/messages">Messages Dictionary</a>
-  * <a href="#">Attachments Setup</a>
+  * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/aol/attachments">Attachments Setup</a>
   * Flexfields Setup
     * <a href="#">Key Flexfield Structures</a>
     * <a href="#">Descriptive Flexfields</a>
