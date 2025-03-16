@@ -204,7 +204,7 @@ These entities facilitate integrations with external systems and allow data impo
  
 ### Alerts Entity
 These entities are utilized for alerts.
-  * <a href="#">Alerts</a>
+  * <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-entities/alerts">Alerts</a>
 
 ### Forms Personalization Entities
 These entities are focused on enhancing the user interface of Oracle Forms to improve the overall user experience.
