@@ -2,7 +2,7 @@
 
 <br>
 
-## Configuration of the Environment for Multilingual Support (Arabic)
+## Configuration of the Environment for Multilingual Support
 
 <br>
 
