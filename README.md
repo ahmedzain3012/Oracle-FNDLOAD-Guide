@@ -138,6 +138,8 @@ FNDLOAD apps/password 0 Y DOWNLOAD $FND_TOP/patch/115/import/<config-file>.lct <
 FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <data-file>.ldt
 ```
 
+<br>
+
 ### Multilingual (NLS) Support
 
 ###### Set NLS_LANG Syntax
