@@ -126,7 +126,7 @@ The Generic Loader is a concurrent program called FNDLOAD. This concurrent execu
 
 <br>
 
-### Example
+#### Example
 
 ###### Download
 ```
@@ -136,6 +136,12 @@ FNDLOAD apps/password 0 Y DOWNLOAD $FND_TOP/patch/115/import/<config-file>.lct <
 ###### Upload
 ```
 FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <data-file>.ldt
+```
+
+### Multilingual (NLS) Support
+
+``` bash
+export NLS_LANG="ARABIC_UNITED ARAB EMIRATES.AR8MSWIN1256"
 ```
 
 
