@@ -26,7 +26,7 @@ SELECT *
 
 ### Set NLS_LANG Based on Database Character Set
 
-### Set NLS_LANG Syntax
+##### Set NLS_LANG Syntax
 ``` bash
 EXPORT NLS_LANG=<language>_<territory>.<character set>
 ```
