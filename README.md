@@ -140,8 +140,10 @@ FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <da
 
 ### Multilingual (NLS) Support
 
+###### Set NLS_LANG Syntax
+
 ``` bash
-export NLS_LANG="ARABIC_UNITED ARAB EMIRATES.AR8MSWIN1256"
+EXPORT NLS_LANG=<language>_<territory>.<character set>
 ```
 
 
