@@ -142,12 +142,18 @@ FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <da
 
 ### Multilingual (NLS) Support
 
-###### Set NLS_LANG Syntax
+##### Set NLS_LANG Syntax
 
+###### For Linux/Unix:
 ``` bash
 EXPORT NLS_LANG=<language>_<territory>.<character set>
 ```
 
+###### For Windows (Command Prompt - CMD):
+
+``` cmd
+set NLS_LANG=<language>_<territory>.<character set>
+```
 
 <br>
 
