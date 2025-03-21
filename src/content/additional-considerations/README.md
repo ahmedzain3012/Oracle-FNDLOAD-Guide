@@ -24,6 +24,14 @@ SELECT *
  WHERE parameter LIKE 'NLS_%';
 ```
 
+```sql
+SELECT NLS_LANGUAGE, NLS_TERRITORY, NLS_CODESET
+  FROM FND_LANGUAGES
+ WHERE 1 - 1 AND NLS_TERRITORY = 'EGYPT'
+```
+
+<br>
+
 ### Set NLS_LANG Based on Database Character Set
 
 ##### Set NLS_LANG Syntax
