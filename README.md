@@ -106,6 +106,8 @@ FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct prog_XXD
 
 ## FNDLOAD Command Syntax & Execution 
 
+### General syntax
+
 The Generic Loader is a concurrent program called FNDLOAD. This concurrent executable accepts the following parameters:
 
 > **FNDLOAD {apps/password} {0 Y} {mode} {configfile} {datafile} {entity} [optional {param} {param}]**
