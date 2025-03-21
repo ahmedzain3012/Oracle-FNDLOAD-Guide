@@ -58,7 +58,7 @@ This is my recommendation for a naming convention for the data file name.
 ### Attachments
  | SEQ | Type                 | Name                   | Prefix   | Suffix | Example |
  | :-: | :----------          | :----                  | :---     | :---   | :----   |
- | 1   | Attachments Setup    | XXDL_ATTACHMENT        | attach_  |   -    | attach_XXDL_ATTACHMENT_us.ldt |
+ | 1   | Attachments Setup    | XXDL_ATTACHMENT        | att_     |   -    | att_XXDL_ATTACHMENT_us.ldt |
  
 <br>
 
