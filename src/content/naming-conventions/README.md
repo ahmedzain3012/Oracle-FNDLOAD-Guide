@@ -41,7 +41,7 @@ This is my recommendation for a naming convention for the data file name.
  | SEQ | Type                  | Name                | Prefix | Suffix | Example |
  | :-: | :----------           | :----               | :---   | :---   | :----   |
  | 1   | Profile Options       | XXDL_PROFILE_OPTION | prof_  |   -    | prof_XXDL_PROFILE_OPTION_us.ldt |
- | 2   | Profile Option Values | XXDL_OPTION_VALUE   | prof_  |   -    | prof_XXDL_OPTION_VALUE_us.ldt |  
+ | 2   | Profile Option Values | XXDL_OPTION_VALUE   | profv_  |   -    | profv_XXDL_OPTION_VALUE_us.ldt |  
  
 ### Flexfields
  | SEQ | Type                     | Name                    | Prefix | Suffix | Example |
