@@ -48,9 +48,11 @@
 <br>
 
 ### Attachments
-| Code   | Entity Name           | Entity Code   | Configuration File                     | Table Name |
-| :-:    | :--------             | :----         | :----                                  | :----   |
-| 1      | Attachments Setup     | ATTACHMENT    | $FND_TOP/patch/115/import/afftalrt.lct | FND_DOCUMENTS  |
+| Code   | Entity Name             | Entity Code   | Configuration File                     | Table Name |
+| :-:    | :--------               | :----         | :----                                  | :----   |
+| 1      | Attachments Definitions | ATTACHMENT    | $FND_TOP/patch/115/import/afattach.lct | FND_DOCUMENTS  |
+| 2      | Attachments Categories  | ATTACHMENT    | $FND_TOP/patch/115/import/afattach.lct | FND_ATT_CATEGORY  |
+| 3      | Media Items             | ATTACHMENT    | $FND_TOP/patch/115/import/afattach.lct | FND_ATT_MEDIA  |
 
 <br>
 
