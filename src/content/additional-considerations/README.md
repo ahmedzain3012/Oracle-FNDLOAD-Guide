@@ -30,3 +30,11 @@ export NLS_LANG="ARABIC_UNITED ARAB EMIRATES.AR8MSWIN1256"
 ``` cmd
 set NLS_LANG=ARABIC_UNITED ARAB EMIRATES.AR8MSWIN1256
 ```
+
+### Reset to Default NLS Settings (If Needed)
+
+##### For Linux/Unix:
+
+``` bash
+unset NLS_LANG
+```
