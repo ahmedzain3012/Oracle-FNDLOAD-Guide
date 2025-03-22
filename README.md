@@ -127,18 +127,12 @@ This diagram visually depicts the internal workflow of the FNDLOAD utility in Or
  <img src="https://github.com/demasy/Oracle-FNDLOAD-Loader/blob/main/src/resources/images/how-fndload-works-diagram.png">
 </p>
 
-#### Command Execution (DOWNLOAD)
+#### Run DOWNLOAD Execution Command
 The user runs a FNDLOAD command from the command line.
 
 ``` shell
 FNDLOAD apps/password O Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct prog_XXDL_PROGRAM_NAME_us.ldt PROGRAM APPLICATION_SHORT_NAME="XXDL" CONCURRENT_PROGRAM_NAME="XXDL_PROGRAM_NAME"
 ```
-
-#### Configuration File (.lct)
-The Loader Control File outlines the structure of the data and the procedures for accessing application metadata. It determines how the loading process operates by specifying the following:
-- The tables to be accessed
-- The columns that serve as keys
-- The relationships between entities (parent-child)
 
 #### Transfer the .ldt file to the target environment.
 
@@ -146,19 +140,12 @@ The Loader Control File outlines the structure of the data and the procedures fo
 scp prog_XXDL_PROGRAM_NAME_us.ldt applmgr@target_server:/u01/demasy/src/migrations/fndload/program/
 ```
 
-#### Command Execution (UPLOAD)
+#### Run UPLOAD Execution Command
 The command FNDLOAD UPLOAD imports data into the target instance.
 
 ``` shell
 FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct prog_XXDL_PROGRAM_NAME_us.ldt
 ```
-
-#### Staging Tables (UPLOAD Only)
-FNDLOAD temporarily loads .ldt contents into staging tables:
-- FND_SEED_STAGE_CONFIG
-- FND_SEED_STAGE_ENTITY
-
-These tables facilitate intermediate validation and mapping before writing to the base tables.
 
 <br>
 
