@@ -99,8 +99,11 @@ FNDLOAD is a migration utility and a well-engineered Oracle EBS tool that manage
 ### How FNDLOAD Works?
 Here’s how it works behind the scenes:
 
-- **Loader Control File (.lct)**  
-Think of this as the blueprint. It defines the data structure, relationships, and logic needed for Oracle to understand what to extract or insert.
+- **Configuration File (.lct)**  
+  The Loader Control File outlines the structure of the data and the procedures for accessing application metadata. It determines how the loading process operates by specifying the following:
+  - The tables to be accessed
+  - The columns that serve as keys
+  - The relationships between entities (parent-child)
 
 - **Data File (.ldt)**  
   This is where the actual setup data resides. The .ldt file contains the downloaded configuration or the data you want to upload. It is editable, version-controllable, and portable.
