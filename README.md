@@ -12,6 +12,7 @@ It is primarily utilized for handling Application Object Library (AOL) data, suc
 
 ### Contents
 - [What is FNDLOAD?](#what-is-fndload)
+- [Why FNDLOAD?](#why-fndload)
 - [Understanding FNDLOAD File Types](#understanding-fndload-file-types)
 - [How FNDLOAD Works?](#how-fndload-works)
 - [FNDLOAD Command Syntax & Execution](#fndload-command-syntax--execution)
