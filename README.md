@@ -140,11 +140,18 @@ FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <da
 
 <br>
 
-### Additional FNDLOAD Parameters
+### FNDLOAD Additional Parameters
 
-| Parameter   | Description            | Usage Example  |
-| :-:    | :--------               | :----     |
-
+| Parameter                  | Description            | Usage Example  |
+| :----------------          | :--------              | :----          |
+| CUSTOM_MODE=FORCE          |                        |                |
+| UPLOAD_MODE=REPLACE        |                        |                |
+| UPLOAD_MODE=NLS            |                        |                |
+| P_LEVEL=                   |                        |                |
+| P_VSET_DOWNLOAD_CHILDREN=N |                        |                |
+| FLOAD_DEBUG=TRUE           |                        |                |
+| OUTPUT_WRAPPER=TRUE        |                        |                |
+| TRACE=\<level\>            |                        |                |
 
 <br>
 
