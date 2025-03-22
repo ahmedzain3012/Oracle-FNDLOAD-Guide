@@ -8,6 +8,10 @@ It is primarily utilized for handling Application Object Library (AOL) data, suc
 
 **Oracle officially** supports and commonly utilizes this utility for **patching**, delivering **seed data**, and managing **AOL objects**.
 
+- [What is FNDLOAD?](#what-is-fndload)
+- [Understanding FNDLOAD File Types](#understanding-fndload-file-types)
+
+
 <br>
 
 ## What is FNDLOAD?
