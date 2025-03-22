@@ -92,7 +92,7 @@ The Loader Data File (.ldt) is a **structured text file** created by FNDLOAD whe
 <br>
 
 ## FNDLOAD Architecture
-FNDLOAD is not just a migration utility but a well-engineered Oracle EBS tool that manages configuration deployments effectively and reliably through structured flat files.
+FNDLOAD is a migration utility and a well-engineered Oracle EBS tool that manages configuration deployments effectively and reliably through structured flat files.
 
 ### How FNDLOAD Works?
 Here’s how it works behind the scenes:
@@ -111,6 +111,16 @@ Think of this as the blueprint. It defines the data structure, relationships, an
 
 In summary, FNDLOAD reads your .lct file to determine the data structure and your .ldt file to identify the data to be moved. Together, they form the core of a smart, scriptable deployment strategy for any Oracle EBS automation effort.
 
+### high-level diagram of how FNDLOAD works
+Here’s a high-level diagram of how FNDLOAD works:
+
+<br>
+<p align="center">
+ <img src="https://github.com/demasy/Oracle-FNDLOAD-Loader/blob/main/src/resources/images/how-fndload-works-diagram.png">
+</p>
+
+<br>
+
 ## How FNDLOAD Works?
 FNDLOAD functions in two primary modes:
 
@@ -124,10 +134,7 @@ FNDLOAD reads a previously extracted .ldt file and loads the configuration into 
  
 This process guarantees automated migrations of menus, responsibilities, profile options, concurrent programs, workflows, and more, ensuring consistency and error-free results.
 
-<br>
-<p align="center">
- <img src="https://github.com/demasy/Oracle-FNDLOAD-Loader/blob/main/src/resources/images/how-fndload-works-diagram.png">
-</p>
+
 
 <br>
 
