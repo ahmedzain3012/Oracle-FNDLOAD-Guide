@@ -127,7 +127,7 @@ This diagram visually depicts the internal workflow of the FNDLOAD utility in Or
  <img src="https://github.com/demasy/Oracle-FNDLOAD-Loader/blob/main/src/resources/images/how-fndload-works-diagram.png">
 </p>
 
-##### Download Command Execution
+##### Command Execution
 The user runs a FNDLOAD command from the command line.
 
 ``` shell
