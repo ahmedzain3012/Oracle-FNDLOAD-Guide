@@ -24,6 +24,10 @@ The Generic Loader (**FNDLOAD**) is a powerful Oracle E-Business Suite (EBS) **c
 
 The **FNDLOAD** utility utilizes a **configuration file (.lct)** that defines the structure and access methods for **extracting** and **uploading** data. This process ensures **seamless** and **error-free** migrations of various components, including menus, responsibilities, profile options, concurrent programs, workflows, and more.
 
+<br>
+
+## Why FNDLOAD?
+Oracle EBS environments typically have a significant amount of configuration data. Manually replicating this setup can be both **error-prone** and **time-consuming**. FNDLOAD simplifies this process by allowing users to **export** configuration data from one environment into a **flat file** and then **import** it into another environment, thereby automating the migration of setup data.
 
 <br>
 
