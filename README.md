@@ -11,8 +11,9 @@ It is primarily utilized for handling Application Object Library (AOL) data, suc
 <br>
 
 ## Contents
-- [What is FNDLOAD?](#what-is-fndload)
-- [Why FNDLOAD?](#why-fndload)
+- Understanding FNDLOAD
+  - [What is FNDLOAD?](#what-is-fndload)
+  - [Why FNDLOAD?](#why-fndload)
 - [Understanding FNDLOAD File Types](#understanding-fndload-file-types)
   - [Configuration File (.lct)](#configuration-file-lct)
   - [Data File (.ldt)](#data-file-ldt)
