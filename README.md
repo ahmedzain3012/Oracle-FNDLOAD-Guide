@@ -21,6 +21,9 @@ It is primarily utilized for handling Application Object Library (AOL) data, suc
   - [High-level Diagram](#high-level-diagram)
   - [FNDLOAD Modes](#fndload-modes)
 - [FNDLOAD Command Syntax & Execution](#fndload-command-syntax--execution)
+  - [General syntax](#general-syntax)
+  - [FNDLOAD Additional Parameters](#fndload-additional-parameters)
+  - [Multilingual (NLS) Support](#multilingual-nls-support)
 - [FNDLOAD Supported Entities](#fndload-supported-entities)
 
 <br>
