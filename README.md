@@ -37,7 +37,11 @@ It is primarily utilized for handling Application Object Library (AOL) data, suc
 - Appendix
   - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/configuration-files">Configuration Files</a>
   - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/staging-tables">FNDLOAD Temporary Staging Tables</a>
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/naming-conventions">Naming Conventions</a>  
   - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/best-practices">Best Practices</a>
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/fndload-scripts">FNDLOAD Scripts</a>
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/troubleshooting">FNDLOAD Troubleshooting</a>
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/resources">Resources</a>
 
 <br>
 
