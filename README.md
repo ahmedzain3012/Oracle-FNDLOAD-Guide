@@ -17,7 +17,7 @@ The **FNDLOAD** utility utilizes a **configuration file (.lct)** that defines th
 ## Understanding FNDLOAD File Types
 FNDLOAD utilizes two primary types of files to transfer configurations between Oracle EBS environments:
 - [Configuration File (.lct)](#configuration-file-lct)
-- Data File (.ldt)
+- [Data File (.ldt)](#data-file-ldt)
 
 <br>
 
