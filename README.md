@@ -111,7 +111,7 @@ Think of this as the blueprint. It defines the data structure, relationships, an
 
 In summary, FNDLOAD reads your .lct file to determine the data structure and your .ldt file to identify the data to be moved. Together, they form the core of a smart, scriptable deployment strategy for any Oracle EBS automation effort.
 
-### high-level diagram of how FNDLOAD works
+### High-level diagram of how FNDLOAD works
 Here’s a high-level diagram of how FNDLOAD works:
 
 <br>
@@ -121,14 +121,17 @@ Here’s a high-level diagram of how FNDLOAD works:
 
 <br>
 
-## How FNDLOAD Works?
+### FNDLOAD Modes
 FNDLOAD functions in two primary modes:
 
-### Download Mode:
+#### Download Mode:
 This mode extracts data from an Oracle EBS database and saves it in a structured text file with a .ldt extension.
 
-### Upload Mode:
+#### Upload Mode:
 FNDLOAD reads a previously extracted .ldt file and loads the configuration into a target Oracle EBS database in this mode.
+
+
+## How FNDLOAD Works?
 
 <br>
  
