@@ -115,7 +115,7 @@ In summary, FNDLOAD reads your .lct file to determine the data structure and you
 
 <br>
 
-### High-level diagram of how FNDLOAD works
+### High-level Diagram
 Here’s a high-level diagram of how FNDLOAD works:
 
 <br>
