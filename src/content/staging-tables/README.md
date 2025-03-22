@@ -3,7 +3,7 @@ Here is a list of FNDLOAD staging tables, along with their descriptions. These t
 
 | Code   | Staging Table                  | Description      | Usage   | 
 | :-:     | :--------                     | :----            | :----   | 
-| 1    | FND_SEED_STAGE_CONFIG            |            |  |
+| 1    | FND_SEED_STAGE_CONFIG            | Stores configuration metadata extracted from the .lct (Loader Control) file. It includes definitions of entities, attribute mappings, and their relationships.| Used to interpret and control how data from .ldt is applied to the base AOL tables. |
 | 2    | FND_SEED_STAGE_ENTITY            |            |  |
 | 3    | FND_SEED_STAGE_CONFIG_DEBUG      |            |  |
 | 4    | FND_SEED_STAGE_ENTITY_DEBUG      |            |  |
