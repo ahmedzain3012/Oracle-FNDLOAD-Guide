@@ -34,6 +34,10 @@ It is primarily utilized for handling Application Object Library (AOL) data, suc
   - [SOA, Integrations & Web ADI Entities](#soa-integrations--web-adi-entities)
   - [Alerts Entity](#alerts-entity)
   - [Forms Personalization Entities](#forms-personalization-entities)
+- Appendix
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/configuration-files">Configuration Files</a>
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/staging-tables">FNDLOAD Temporary Staging Tables</a>
+  - <a href="https://github.com/demasy/Oracle-FNDLOAD-Guide/tree/main/src/content/best-practices">Best Practices</a>
 
 <br>
 
