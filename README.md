@@ -117,6 +117,7 @@ In summary, FNDLOAD reads your .lct file to determine the data structure and you
 
 ### High-level Diagram
 Here’s a high-level diagram of how FNDLOAD works:
+This diagram visually depicts the internal workflow of the FNDLOAD utility in Oracle E-Business Suite. It illustrates how the utility reads control files, processes configuration data, temporarily stages the data during the upload, and ultimately writes to or reads from the AOL base tables.
 
 <br>
 <p align="center">
