@@ -20,7 +20,7 @@ The Loader Control File (.lct) is a key component of Oracle’s FNDLOAD utility.
 - The files are **portable** and **human-readable**, allowing them to be opened and examined with any text editor.
 - The **.lct** file outlines a specific entity's data structure and metadata.
 - Each **Oracle EBS** entity (e.g., Concurrent Programs, Menus, Responsibilities) has its own unique **.lct** file.
-- Predefined **.lct** files are stored in the directory **$FND_TOP/patch/115/import/**.
+- Predefined **.lct** files are stored in the directory **$FND_TOP/patch/115/import/** or **$FND_TOP/admin/import/**.
 - The files define **relationships** and **dependencies**, outlining parent-child connections between Oracle EBS objects.
 - **.lct** files do not contain actual data; they only describe the structure without accurate configuration details.
 - They are essential for the **DOWNLOAD** and **UPLOAD** processes when migrating data between instances.
