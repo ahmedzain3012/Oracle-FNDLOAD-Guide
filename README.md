@@ -91,6 +91,26 @@ The Loader Data File (.ldt) is a **structured text file** created by FNDLOAD whe
 
 <br>
 
+## FNDLOAD Architecture
+FNDLOAD is not just a migration utility but a well-engineered Oracle EBS tool that manages configuration deployments effectively and reliably through structured flat files.
+
+### How FNDLOAD Works?
+Here’s how it works behind the scenes:
+
+- **Loader Control File (.lct)**  
+Think of this as the blueprint. It defines the data structure, relationships, and logic needed for Oracle to understand what to extract or insert.
+
+- **Data File (.ldt)**  
+  This is where the actual setup data resides. The .ldt file contains the downloaded configuration or the data you want to upload. It is editable, version-controllable, and portable.
+
+- **Dynamic SQL & PL/SQL API Execution**  
+  Based on the metadata in the LCT file, FNDLOAD dynamically constructs SQL and PL/SQL blocks to fetch or insert data. This logic ensures the correct mapping from a flat file to the database and vice versa.
+
+- **Temporary Staging Tables**  
+  During the upload process, data from the .ldt file is initially placed into Oracle’s internal staging tables—such as FND_SEED_STAGE_ENTITY—before it is validated and moved to the AOL base tables. This approach adds a layer of safety and improves error handling.
+
+In summary, FNDLOAD reads your .lct file to determine the data structure and your .ldt file to identify the data to be moved. Together, they form the core of a smart, scriptable deployment strategy for any Oracle EBS automation effort.
+
 ## How FNDLOAD Works?
 FNDLOAD functions in two primary modes:
 
