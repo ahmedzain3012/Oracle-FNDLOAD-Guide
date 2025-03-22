@@ -134,7 +134,11 @@ The user runs a FNDLOAD command from the command line.
 FNDLOAD apps/password O Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct prog_XXDL_PROGRAM_NAME_us.ldt PROGRAM APPLICATION_SHORT_NAME="XXDL" CONCURRENT_PROGRAM_NAME="XXDL_PROGRAM_NAME"
 ```
 
-##### LCT File Parsing
+##### Control File (.lct)
+The Loader Control File outlines the structure of the data and the procedures for accessing application metadata. It determines how the loading process operates by specifying the following:
+- The tables to be accessed
+- The columns that serve as keys
+- The relationships between entities (parent-child)
 
 ##### LDT File Handling
 
