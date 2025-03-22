@@ -1,5 +1,11 @@
 # Oracle FNDLOAD Loader
 
+The **FNDLOAD** stands for Application Object Library (FND) Loader. It is a **command-line** tool for transferring data between the Oracle E-Business Suite (EBS) database and flat text files, following a predefined structure. 
+
+Key points about FNDLOAD include:
+- It is primarily utilized for handling Application Object Library (AOL) data, such as Concurrent Programs, Menus, Value Sets, Lookups, Flexfields, and more.
+- FNDLOAD is also employed internally during patching and the delivery of seed data.
+
 The Generic Loader (**FNDLOAD**) is a powerful Oracle E-Business Suite (EBS) concurrent program designed for transferring configuration data between **databases** and **human-readable text files** with the **.ldt** extension. This utility facilitates the automated migration of Application Object Library (AOL) objects, significantly reducing the need for manual reconfiguration across Development (DEV), Test (UAT), and Production (PROD) environments.
 
 The **FNDLOAD** utility utilizes a **configuration file (.lct)** that defines the structure and access methods for **extracting** and **uploading** data. This process ensures seamless and error-free migrations of various components, including menus, responsibilities, profile options, concurrent programs, workflows, and more.
