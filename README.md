@@ -4,7 +4,9 @@ The **FNDLOAD** stands for Application Object Library (**FND**) **Load**er. It i
 
 Key points about FNDLOAD include:
 - It is primarily utilized for handling Application Object Library (AOL) data, such as Concurrent Programs, Menus, Value Sets, Lookups, Flexfields, and more.
-- FNDLOAD is also employed internally during patching and the delivery of seed data.
+- FNDLOAD is also employed internally during **patching** and the **delivery of seed data**.
+
+<br>
 
 The Generic Loader (**FNDLOAD**) is a powerful Oracle E-Business Suite (EBS) concurrent program designed for transferring configuration data between **databases** and **human-readable text files** with the **.ldt** extension. This utility facilitates the automated migration of Application Object Library (AOL) objects, significantly reducing the need for manual reconfiguration across Development (DEV), Test (UAT), and Production (PROD) environments.
 
