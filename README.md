@@ -140,6 +140,14 @@ FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <da
 
 <br>
 
+### Additional FNDLOAD Parameters
+
+| Parameter   | Description            | Usage Example  |
+| :-:    | :--------               | :----     |
+
+
+<br>
+
 ### Multilingual (NLS) Support
 
 ##### Set NLS_LANG Syntax
