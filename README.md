@@ -123,27 +123,23 @@ Here’s a high-level diagram of how FNDLOAD works:
  <img src="https://github.com/demasy/Oracle-FNDLOAD-Loader/blob/main/src/resources/images/how-fndload-works-diagram.png">
 </p>
 
-This process guarantees automated migrations of menus, responsibilities, profile options, concurrent programs, workflows, and more, ensuring consistency and error-free results.
-
-FNDLOAD DOWNLOAD generates a .ldt file from Oracle E-Business Suite (EBS).
-
-``` shell
-FNDLOAD apps/password O Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct prog_XXDL_PROGRAM_NAME_us.ldt PROGRAM APPLICATION_SHORT_NAME="XXDL" CONCURRENT_PROGRAM_NAME="XXDL_PROGRAM_NAME"
-```
-
-FNDLOAD DOWNLOAD generates a .ldt file from Oracle E-Business Suite (EBS).
+##### Download Command Execution
+The user runs a FNDLOAD command from the command line.
 
 ``` shell
 FNDLOAD apps/password O Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct prog_XXDL_PROGRAM_NAME_us.ldt PROGRAM APPLICATION_SHORT_NAME="XXDL" CONCURRENT_PROGRAM_NAME="XXDL_PROGRAM_NAME"
 ```
 
-Transfer the .ldt file to the target environment.
+##### LCT File Parsing
+
+##### LDT File Handling
+
+##### Transfer the .ldt file to the target environment.
 
 ``` shell
 scp prog_XXDL_PROGRAM_NAME_us.ldt applmgr@target_server:/u01/demasy/src/migrations/fndload/program/
 ```
-<br>
-
+##### Upload Command Execution
 The command FNDLOAD UPLOAD imports data into the target instance.
 
 ``` shell
