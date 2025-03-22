@@ -1,6 +1,6 @@
 # Oracle FNDLOAD Loader
 
-The **FNDLOAD** stands for Application Object Library (**FND**) **Load**er. It is a **command-line** tool for transferring data between the Oracle E-Business Suite (EBS) database and flat text files, following a predefined structure. 
+The **FNDLOAD** stands for Application Object Library (**FND**) **Load**er. It is a **command-line** tool for **transferring data** between the **Oracle E-Business Suite (EBS) database** and **flat text files**, following a predefined structure. 
 
 Key points about FNDLOAD include:
 - It is primarily utilized for handling Application Object Library (AOL) data, such as Concurrent Programs, Menus, Value Sets, Lookups, Flexfields, and more.
