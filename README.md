@@ -153,6 +153,11 @@ FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <da
 | OUTPUT_WRAPPER=TRUE        |                        |                |
 | TRACE=\<level\>            |                        |                |
 
+###### Example with Multiple Parameters:
+```
+FNDLOAD apps/password 0 Y UPLOAD $FND_TOP/patch/115/import/<config-file>.lct <data-file>.ldt - CUSTOM_MODE=FORCE UPLOAD_MODE=NLS FLOAD_DEBUG=TRUE
+```
+
 <br>
 
 ### Multilingual (NLS) Support
