@@ -65,6 +65,9 @@
 
 ## Security & Access Control Entities
 
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
 
 <br>
 
