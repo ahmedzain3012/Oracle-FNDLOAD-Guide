@@ -74,6 +74,48 @@
 
 ## Workflow & Approval Management Entities
 
+### Workflow
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+### Approvals Management Engine (AME)
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+#### Transaction Types
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+#### Attributes
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+#### Conditions
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+#### Approver Groups
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+#### Rules
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
 <br>
 
 ## Approvals Management Engine (AME)
