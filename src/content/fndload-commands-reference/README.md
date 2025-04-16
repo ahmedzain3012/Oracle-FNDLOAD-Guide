@@ -73,3 +73,41 @@
 
 <br>
 
+# Approvals Management Engine (AME)
+
+<br>
+
+# Reporting & BI Publisher (XDO) Entities
+
+<br>
+
+# SOA, Integrations & Web ADI Entities
+
+## Integrated SOA Gateway (ISG)
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+## Application Desktop Integrator (Web ADI)
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+## Alerts Entity
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+<br>
+
+# Forms Personalization Entities
+
+| Code   | Entity Name             | Download  | Upload  |  
+| :-:    | :--------               | :----     | :----   | 
+
+
+
+<br>
