@@ -13,7 +13,7 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
-| 1      | Concurrent Programs     |           |         |
+| 1      | Concurrent Programs     | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct <Program>.ldt PROGRAM APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" CONCURRENT_PROGRAM_NAME="<PROGRAM_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct <Program>.ldt|
 | 2      | Executables             |           |         |
 | 3      | Request Groups          |           |         |
 | 4      | Request Sets            |           |         |
