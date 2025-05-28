@@ -19,10 +19,10 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
-| 1      | Concurrent Programs     | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct <Program>.ldt PROGRAM APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" CONCURRENT_PROGRAM_NAME="<PROGRAM_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct <Program>.ldt|
+| 1      | Concurrent Programs     | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct <PROGRAM_NAME>.ldt PROGRAM APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" CONCURRENT_PROGRAM_NAME="<PROGRAM_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct <PROGRAM_NAME>.ldt|
 | 2      | Executables             |           |         |
-| 3      | Request Groups          | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpreqg.lct <ReqGroup>.ldt REQUEST_GROUP REQUEST_GROUP_NAME="<GROUP_NAME>" APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct <ReqGroup>.ldt |
-| 4      | Request Sets            | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcprset.lct <ReqSet>.ldt REQ_SET REQUEST_SET_NAME="<SET_NAME>"| FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct <ReqSet>.ldt|
+| 3      | Request Groups          | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpreqg.lct <REQGROUP_NAME>.ldt REQUEST_GROUP REQUEST_GROUP_NAME="<GROUP_NAME>" APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct <REQGROUP_NAME>.ldt |
+| 4      | Request Sets            | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcprset.lct <REQSET_NAME>.ldt REQ_SET REQUEST_SET_NAME="<SET_NAME>"| FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct <REQSET_NAME>.ldt|
 | 5      | Request Set Links       |           |         |
 
 <br>
@@ -52,6 +52,9 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
+| 1    | Message               | FNDLOAD apps/<$apps_password> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afmdmsg.lct MSG_CODE_US.ldt FND_NEW_MESSAGES APPLICATION_SHORT_NAME='AR' MESSAGE_NAME=%XXEINV_ZATCA%     | FNDLOAD apps/<$apps_password> 0 Y UPLOAD $FND_TOP/patch/115/import/afmdmsg.lct MSG_CODE_US.ldt   | 
+
+
 
 <br>
 
@@ -140,8 +143,9 @@
 
 ### Alerts Entity
 
-| Code   | Entity Name             | Download  | Upload  |  
-| :-:    | :--------               | :----     | :----   | 
+| Code   | Entity Name             | Download  | Upload  |
+| :-:    | :--------               | :----     | :----   |   
+| 1      |Alert                    |FNDLOAD apps/<$apps_password> 0 Y DOWNLOAD $ALR_TOP/patch/115/import/alr.lct <ALERT_NAME>.ldt ALERT ALERT_NAME="<ALERT_NAME>"|FNDLOAD apps/<$apps_password> 0 Y UPLOAD $ALR_TOP/patch/115/import/alr.lct <ALERT_NAME>.ldt| 
 
 
 <br>
