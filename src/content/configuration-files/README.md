@@ -62,7 +62,7 @@
 | 3      | Attachment Block → Entities| FND_ATTACHMENT_BLK_ENTITIES | $FND_TOP/patch/115/import/afattach.lct | FND_ATTACHMENT_BLK_ENTITIES |
 | 4      | Document Categories (Usage)| FND_DOCUMENT_CATEGORIES     | $FND_TOP/patch/115/import/afattach.lct | FND_DOCUMENT_CATEGORIES |
 | 5      | Document Data Types        | FND_DOCUMENT_DATATYPES      | $FND_TOP/patch/115/import/afattach.lct | FND_DOCUMENT_DATATYPES |
-| 5      | Media Items                | MEDIA                       | $FND_TOP/patch/115/import/afattach.lct | FND_ATT_MEDIA |
+| 6      | Media Items                | MEDIA                       | $FND_TOP/patch/115/import/afattach.lct | FND_ATT_MEDIA |
 <br>
 
 
