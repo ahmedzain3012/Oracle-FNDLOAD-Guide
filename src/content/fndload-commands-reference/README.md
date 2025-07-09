@@ -31,6 +31,7 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
+| 1      | Lookups                 | FNDLOAD apps/$APPS_PASSWORD 0 Y DOWNLOAD $FND_TOP/patch/115/import/aflvmlu.lct <filename>.ldt FND_LOOKUP_TYPE APPLICATION_SHORT_NAME="<APPSHORT>" LOOKUP_TYPE="<LOOKUP_TYPE>" | FNDLOAD apps/$APPS_PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/aflvmlu.lct <filename>.ldt|
 
 <br>
 
