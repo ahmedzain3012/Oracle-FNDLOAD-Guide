@@ -23,7 +23,7 @@
 | 2      | Executables             |           |         |
 | 3      | Request Groups          | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpreqg.lct <ReqGroup>.ldt REQUEST_GROUP REQUEST_GROUP_NAME="<GROUP_NAME>" APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct <ReqGroup>.ldt |
 | 4      | Request Sets            | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcprset.lct <ReqSet>.ldt REQ_SET REQUEST_SET_NAME="<SET_NAME>"| FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct <ReqSet>.ldt|
-| 5      | Request Set Links       |           |         |
+| 5      | Request Set Links       |  FNDLOAD apps/$APPS_PASSWORD 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcprset.lct <filename>.ldt REQ_SET APPLICATION_SHORT_NAME="<APPSHORT>" REQUEST_SET_NAME="<REQUEST_SET_NAME>" | FNDLOAD apps/$APPS_PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct <filename>.ldt |
 
 <br>
 
