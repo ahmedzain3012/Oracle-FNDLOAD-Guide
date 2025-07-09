@@ -39,6 +39,7 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
+| 1      | Profile Options         | FNDLOAD apps/$APPS_PASSWORD 0 Y DOWNLOAD $FND_TOP/patch/115/import/afscprof.lct <filename>.ldt PROFILE PROFILE_NAME="<PROFILE_OPTION_NAME>" APPLICATION_SHORT_NAME="<APPSHORT>" | FNDLOAD apps/$APPS_PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afscprof.lct <filename>.ldt |
 
 <br>
 
