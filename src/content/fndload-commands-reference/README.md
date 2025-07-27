@@ -19,10 +19,10 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
-| 1      | Concurrent Programs     | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct <PROGRAM_NAME>.ldt PROGRAM APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" CONCURRENT_PROGRAM_NAME="<PROGRAM_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct <PROGRAM_NAME>.ldt|
-| 2      | Executables             |           |         |
-| 3      | Request Groups          | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpreqg.lct <REQGROUP_NAME>.ldt REQUEST_GROUP REQUEST_GROUP_NAME="<GROUP_NAME>" APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct <REQGROUP_NAME>.ldt |
-| 4      | Request Sets            | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcprset.lct <REQSET_NAME>.ldt REQ_SET REQUEST_SET_NAME="<SET_NAME>"| FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct <REQSET_NAME>.ldt|
+| 1      | Concurrent Programs     | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct <Program>.ldt PROGRAM APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" CONCURRENT_PROGRAM_NAME="<PROGRAM_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct <Program>.ldt|
+| 2      | Executables             | FNDLOAD apps/$APPS_PASSWORD 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct <filename>.ldt EXECUTABLE APPLICATION_SHORT_NAME="<APPSHORT>" EXECUTABLE_NAME="<EXECUTABLE_NAME>" | FNDLOAD apps/$APPS_PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct <filename>.ldt 
+| 3      | Request Groups          | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcpreqg.lct <ReqGroup>.ldt REQUEST_GROUP REQUEST_GROUP_NAME="<GROUP_NAME>" APPLICATION_SHORT_NAME="<APP_SHORT_NAME>" | FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct <ReqGroup>.ldt |
+| 4      | Request Sets            | FNDLOAD apps/<APPS_PASSWORD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/afcprset.lct <ReqSet>.ldt REQ_SET REQUEST_SET_NAME="<SET_NAME>"| FNDLOAD apps/<APPS_PASSWORD> 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct <ReqSet>.ldt|
 | 5      | Request Set Links       |           |         |
 
 <br>
@@ -31,6 +31,7 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
+| 1      | Lookups                 | FNDLOAD apps/$APPS_PASSWORD 0 Y DOWNLOAD $FND_TOP/patch/115/import/aflvmlu.lct <filename>.ldt FND_LOOKUP_TYPE APPLICATION_SHORT_NAME="<APPSHORT>" LOOKUP_TYPE="<LOOKUP_TYPE>" | FNDLOAD apps/$APPS_PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/aflvmlu.lct <filename>.ldt|
 
 <br>
 
@@ -38,6 +39,7 @@
 
 | Code   | Entity Name             | Download  | Upload  |  
 | :-:    | :--------               | :----     | :----   | 
+| 1      | Profile Options         | FNDLOAD apps/$APPS_PASSWORD 0 Y DOWNLOAD $FND_TOP/patch/115/import/afscprof.lct <filename>.ldt PROFILE PROFILE_NAME="<PROFILE_OPTION_NAME>" APPLICATION_SHORT_NAME="<APPSHORT>" | FNDLOAD apps/$APPS_PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afscprof.lct <filename>.ldt |
 
 <br>
 
